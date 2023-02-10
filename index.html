@@ -3,13 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>In Class Exercise</title>
-        <style>
-            body {background-color: pink;}
-            h1, h3, h5 {color: green;}
-            h2, h4, h6 {color: red}
-            p {color: blue;}
-        </style>
-        <link rel="icon" type="image/x-icon" href="assets/img/Cat03.jpg"
+        <link rel="stylesheet" href="Assets/css/mystyle.css">
+        <link rel="icon" type="image/x-icon" href="assets/img/Cat03.jpg">
     </head>
     <body>
         <section id="head1">
@@ -32,9 +27,63 @@
                 <strike>Strike Text</strike>
             </p>
             <a href="https://mcgill.ca" target="_blank" title="View Mcgill website link">Click Here</a>
+            <br>
+            <img src="assets/img/Cat03.jpg" alt="image of an orange cat" width="200px" height="200">
+            <br>
+            <iframe src="Assets/pdf/Wireframe.pdf" title="RSART Wireframe"></iframe>
+            <br>
+            <video  autoplay muted controls width="200px" height="200">
+                <source src="Assets/vid/video.mp4" type="video/mp4">
+            </video>
+            <!--Testing different list types-->
+            <ul>
+                <li style="color:royalblue; text-decoration: overline blue dashed 5px"> Thing 1</li>
+                <li> Thing 2</li>
+                <li> Thing 3</li>
+            </ul>
+            <ol>
+                <li> Thing 1</li>
+                <li> Thing 2</li>
+                <li> Thing 3</li>
+            </ol>
+            <dl>
+                <dt> Thing 1</dt>
+                    <dd>Thing 1 is a thing that is a 1</dd>
+                <dt> Thing 2</dt>
+                    <dd>Thing 2 is a thing that is a 2</dd>
+                <dt> Thing 3</dt>
+                    <dd>Thing 3 is a thing that is a 3</dd>
+            </dl>
+            <table border="1px">
+                <tr>
+                    <th>HEADING 1</th>
+                    <th>HEADING 2</th>
+                    <th>HEADING 2</th>
+                </tr>
+                <tr>
+                    <td> Item 1</td>
+                    <td> Item 2</td>
+                    <td> Item 3</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"> Item 4/7</td>
+                    <td> Item 6</td>
+                </tr>
+                <tr>
+                    <td> Item 8</td>
+                    <td> Item 9</td>
+                </tr>
+            </table>
+            <br>
+            <form method="GET" action="sample.html" autocomplete="on">
+                <label for="#fNamebox">First Name</label>
+                <input id="fNamebox" name="fName>" type="text" value="Katya">
+                <input id="colorbox" name="color>" type="color">
+                <input type="submit" value="submit">
+            </form>
         </section>
         <br>
-        <section id="head2">
+        <section id="head2" class="col-red">
             <a href="#head1">Go to Head 1</a>
         </section>
     </body>

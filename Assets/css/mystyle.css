@@ -1,0 +1,15 @@
+#header-section{
+    background-color: palevioletred;
+}
+body{
+    background-color: pink;
+    background-image: url("../img/cat1.webp");
+    background-attachment: fixed;
+    color: blueviolet;
+}
+#head1{
+    background-color: bisque;
+}
+.col-red{
+    background-color: red;
+}
