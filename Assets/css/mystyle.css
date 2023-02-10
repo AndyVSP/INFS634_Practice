@@ -3,13 +3,56 @@
 }
 body{
     background-color: pink;
-    background-image: url("../img/cat1.webp");
+    background-image: url("../img/Cat03.jpg");
     background-attachment: fixed;
     color: blueviolet;
+    font-size: 3rem;
+    font-family: 'Caveat Brush', cursive;
+    font-style: italic;
+    font-weight: 500;
 }
+
 #head1{
     background-color: bisque;
 }
 .col-red{
     background-color: red;
 }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    color:aquamarine;
+}
+
+a {
+    color:greenyellow;
+    background-color: orange;
+    box-shadow: 2px 2px 5px black;
+    padding: 25px 50px;
+    margin: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: red
+}
+
+p>a{
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-shadow: none;
+}
+
+@media (max-width: 576px){
+    body {
+        background-color: grey; 
+    }
+}
+    
