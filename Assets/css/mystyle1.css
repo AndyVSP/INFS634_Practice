@@ -1,0 +1,9 @@
+
+.mytext{
+    color: green;
+}
+
+[class ="-primary"]
+{
+    background-color:yellow !important;
+}
